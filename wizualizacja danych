@@ -1,0 +1,55 @@
+import sys
+
+#def zad1():
+#a = input('Podaj liczbe: ')
+#count = a.count('',1)
+#print(count)
+
+def zad2():
+    print('Podaj trzy liczby calkowite')
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    wynik = a**b+c
+    print (wynik)
+
+def isPalindrome(s):
+    return s == s[::-1]
+
+def zad3():
+    s = input("Wpisz slowo: ")
+    ans = isPalindrome(s)
+
+    if ans:
+        print("Jest palindromem")
+    else:
+        print("Nie jest palindromem")
+
+def zad4():
+    num = int(input('Wpisz liczbe: '))
+    if num > 1:
+        for i in range(2, int(num/2)+1):
+            if (num % i) == 0:
+                print(num, 'nie jest liczba pierwsza')
+        else:
+            print(num, "jest liczba pierwsza")
+    else:
+        print(num, 'nie jest liczba pierwsza')
+def zad5():
+    num = 1000
+    sum_v = 0
+    for i in range(1, num):
+        if (num % i == 0):
+            sum_v = sum_v + i
+    print(3)
+def zad6():
+    lista[]
+    for i in range(1, num):
+        
+
+def main():
+    zad6()
+
+
+
+main()
